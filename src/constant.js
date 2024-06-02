@@ -1,1 +1,2 @@
-export const BACKEND_URL='http://localhost:5400/api/v1'
+export const BACKEND_URL='https://multiplayergame-server.onrender.com/api/v1'
+// https://multiplayergame-server.onrender.com
