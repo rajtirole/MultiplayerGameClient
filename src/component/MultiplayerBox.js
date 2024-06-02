@@ -10,6 +10,7 @@ const MultiplayerBox = () => {
         fetch(`${BACKEND_URL}/items`).then((res)=>{
           return res.json()
         }).then((res)=>{
+          console.log(res);
             console.log(res?.data?.data);
 
             SetList(res?.data?.data)
