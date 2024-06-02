@@ -1,0 +1,49 @@
+.ListCategoryContainer{
+    min-width: 30%;
+    width: 30%;
+    font-size: 0.7rem;
+   
+}
+
+.ListCategoryContainer>ul{
+    max-height: 100%;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    padding: 0 10px;
+    
+   
+}
+.ListCategoryContainer>ul>li{
+    list-style: none;
+    padding: 0.5rem 1rem;
+    border-bottom: 2px solid #8c8989;
+    padding: 10px;
+    transition: background-color 0.3s ease; /* Smooth transition for background color */
+   
+}
+.ListCategoryContainer ul li:hover {
+    background-color: white; /* Background color on hover */
+    color: black;
+    border-bottom:none;
+  }
+/* ListCategory.css */
+
+.ListCategoryContainer {
+    overflow-y: auto; /* Ensure vertical scrollbar appears when needed */
+  }
+  
+  *::-webkit-scrollbar {
+    width: 4px; /* Set the width of the scrollbar */
+  }
+  
+  
+  *::-webkit-scrollbar-thumb {
+    background-color: #dfdbdb; /* Set the color of the scrollbar thumb */
+    border-radius: 5px; /* Set the border radius to make it rounded */
+  }
+  
+  *::-webkit-scrollbar-thumb:hover {
+    background-color: #555; /* Set the color of the scrollbar thumb on hover */
+  }
+  
+

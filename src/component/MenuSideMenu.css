@@ -1,0 +1,11 @@
+.MenuSideMenuContainer{
+    width: 5%;
+    min-width: 5%;
+    max-width: 5%;
+}
+.MenuSideMenuContainer>img{
+    /* height: 80%; */
+    height: 90%;
+    width: 100%;
+    object-fit: cover;
+}
