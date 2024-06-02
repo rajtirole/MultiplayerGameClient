@@ -4,8 +4,6 @@ import "./MultiplayerBox.css";
 import ListCategory from "./ListCategory";
 import CategoryInfo from "./CategoryInfo";
 import { BACKEND_URL } from "../constant";
-import axios from 'axios'
-
 const MultiplayerBox = () => {
     const [list,SetList]=useState(false)
     useEffect(()=>{
