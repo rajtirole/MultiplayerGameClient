@@ -8,7 +8,10 @@ const MultiplayerBox = () => {
     const [list,SetList]=useState(false)
     useEffect(()=>{
         fetch(`${BACKEND_URL}/items`).then((res)=>{
-            console.log(res.data.data);
+          return res.json()
+        }).then((res)=>{
+            console.log(res?.data?.data);
+
             SetList(res?.data?.data)
         }).catch((err)=>{
             console.log(err);
