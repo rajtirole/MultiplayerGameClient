@@ -9,7 +9,7 @@ import axios from 'axios'
 const MultiplayerBox = () => {
     const [list,SetList]=useState(false)
     useEffect(()=>{
-        axios.get(`${BACKEND_URL}/items`).then((res)=>{
+        fetch(`${BACKEND_URL}/items`).then((res)=>{
             console.log(res.data.data);
             SetList(res?.data?.data)
         }).catch((err)=>{
