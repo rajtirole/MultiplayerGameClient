@@ -11,9 +11,9 @@ const MultiplayerBox = () => {
           return res.json()
         }).then((res)=>{
           console.log(res);
-            console.log(res?.data?.data);
+            console.log(res?.data);
 
-            SetList(res?.data?.data)
+            SetList(res?.data)
         }).catch((err)=>{
             console.log(err);
         })
